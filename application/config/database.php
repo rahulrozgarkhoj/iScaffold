@@ -53,14 +53,14 @@ $db['iscaffold']['username'] = $_ENV['DB_USER'];
 $db['iscaffold']['password'] = $_ENV['DB_PASS'];
 $db['iscaffold']['database'] = $_ENV['DB_NAME'];
 
-$db['iscaffold']['dbdriver'] = 'mysql';
+$db['iscaffold']['dbdriver'] = 'mysqli';
 $db['iscaffold']['dbprefix'] = '';
 $db['iscaffold']['pconnect'] = TRUE;
 $db['iscaffold']['db_debug'] = TRUE;
 $db['iscaffold']['cache_on'] = FALSE;
 $db['iscaffold']['cachedir'] = '';
-$db['iscaffold']['char_set'] = 'utf8';
-$db['iscaffold']['dbcollat'] = 'utf8_general_ci';
+$db['iscaffold']['char_set'] = 'utf8mb4';
+$db['iscaffold']['dbcollat'] = 'utf8mb4_general_ci';
 $db['iscaffold']['swap_pre'] = '';
 $db['iscaffold']['autoinit'] = TRUE;
 $db['iscaffold']['stricton'] = FALSE;

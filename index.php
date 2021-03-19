@@ -6,9 +6,9 @@
  *---------------------------------------------------------------
  */
 
-require("/application/libraries/dotenv/src/Dotenv.php");
-require("/application/libraries/dotenv/src/Loader.php");
-require("/application/libraries/dotenv/src/Validator.php");
+require __DIR__."/application/libraries/dotenv/src/Dotenv.php";
+require __DIR__."/application/libraries/dotenv/src/Loader.php";
+require __DIR__."/application/libraries/dotenv/src/Validator.php";
 
 $dotenv = new Dotenv\Dotenv(__DIR__);
 

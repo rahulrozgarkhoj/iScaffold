@@ -1,0 +1,16 @@
+{
+  "name": "gen",
+  "version": "1.0.0",
+  "description": "iScaffold is a CASE application built upon CodeIgniter that lets you generate your basic Models, Views and Controllers for each table in your database. iScaffold creates a complete, working CodeIgniter installation that is password protected, beautifully desigened, easily usable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prettier/plugin-php": "^0.16.1",
+    "prettier": "^2.2.1"
+  }
+}
